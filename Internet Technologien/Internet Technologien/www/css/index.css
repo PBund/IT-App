@@ -1,0 +1,59 @@
+﻿body
+{
+	font-family:Consolas;
+	font-size:16px;
+	color:black;
+}
+
+.ueberschrift, .inhalt, .steuerung
+{
+	width:100%;
+	left:0px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+.ueberschrift
+{
+	position:absolute;
+	top:0px;
+	height:10%;
+	background-color:cadetblue;
+}
+
+.inhalt
+{
+	position:absolute;
+	top:15%;
+	height:80%;
+	text-align:left;
+	background-color:lightgrey;
+}
+
+.steuerung
+{
+	position:absolute;
+	bottom:0%;
+	height:4%;
+	background-color:cadetblue;
+}
+
+h1
+{
+	padding: 0px 0px 0px 0px;
+}
+
+ul
+{
+	list-style:none;
+	line-height:25px;
+}
+
+table
+{
+	width:100%;
+	table-layout:fixed;
+	border-collapse:collapse;
+	border-top-style:solid;
+	border-bottom-style:solid;
+}
